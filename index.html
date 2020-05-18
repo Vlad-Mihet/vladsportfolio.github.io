@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="main" class="fwh-slide">
+        <div id="text" class="container text-white text-center">
+            Hello! I'm <span id="highlight">Vlad Mihet</span>.<br> I'm a Front-end Developer.<br>
+            <button id="goDown"> <a href="#aboutHeader"> View my work </a> <i id="arrowX" class="arrow right"> </i></button>
+        </div>
+    </section>
+    <section class="fwh-slide">
+        <nav class="bg-dark justify-content-center">
+            <div class="nav-item"> <a class="nav-link" href="#main">Home</a> </div>
+            <div class="nav-item"> <a class="nav-link" href="#aboutHeader">About  </a></div>
+            <div class="nav-item"> <a class="nav-link" href="#">Portfolio </a></div>
+            <div class="nav-item"> <a class="nav-link" href="#contactHeader">Contact </a></div>
+        </nav>
+        <h1 id="aboutHeader" class="display-5 text-center text-dark"> ABOUT </h1>
+        <div id="imgDeck">
+            <div class="imgCard">
+                <img src="Images/051-idea.png" class="imgToAnimate">
+                <div class="textCard">
+                    <h2> Intuitive </h2>
+                    <p> Strong preference for easy to use, good-looking, and intuitive UX/UI. </p>
+                </div>
+            </div>
+            <div class="imgCard">
+                <img src="Images/051-laptop-1.png" class="imgToAnimate">
+                <div class="textCard">
+                    <h2> Dynamic </h2>
+                    <p> Websites don't have to be static; I love making pages come to life. </p>
+                </div>
+            </div>
+            <div class="imgCard">
+                <img src="Images/051-responsive.png" class="imgToAnimate">
+                <div class="textCard">
+                    <h2> Responsive </h2>
+                    <p> My layouts will work flawlessly on any device, big or small. </p>
+                </div>
+            </div>
+            <div class="imgCard">
+                <img src="Images/051-send.png" class="imgToAnimate">
+                <div class="textCard">
+                    <h2> Fast </h2>
+                    <p> Fast load times and lag-free interaction are my highest priorities. </p>
+                </div>
+            </div>
+        </div>
+        <div id="jumbo" class="jumbotron custom-jumbotron">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="Images/MyPhoto.jpg">
+                </div>
+                <div class="col-sm-10">
+                    <h1 class="display-3">About me</h1>
+                    <h3 class="lead">Computer Science Student and Front-End Web Developer</h3>
+                    <hr class="my-2">
+                    <p>I'm a Computer Science student and Front-End Developer from Romania. Web development has been a passion of mine ever since I first worked with HTML 5 years ago. </p>
+                    <p> I have been working since then with <span id="highlight1">C++</span>, <span id="highlight1">Python</span>, <span id="highlight1">HTML</span>, <span id="highlight1">CSS</span> and <span id="highlight1">JavaScript</span>. I am intending
+                        of becoming a Full-Stack Developer as I develop my expertise in Front-End and some Front-End technologies I am already studying. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footerSection" class="fwh-slide">
+        <h1 id="contactHeader" class="display-5 text-center"> CONTACT </h1>
+        <h3 id="contactH3" class="text-center"> Have a question, or want to work together? </h3>
+        <div id="contactMe">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit"> Submit </button>
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small special-color-dark  bg-secondary pt-4">
+            <table id="wrapper">
+                <tr>
+                    <a href="#main">
+                        <img id="upButton" src="Images/upButton.png">
+                    </a>
+                </tr>
+            </table>
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Social buttons -->
+                <ul id="socialButtons" class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="#" class="fa fa-facebook"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="fa fa-twitter"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 bg-dark text-white">© 2020 <span id="highlight">Vlad Mihet</span>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- My Scripts -->
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
