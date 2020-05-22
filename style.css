@@ -114,8 +114,9 @@
         }
         
         #imgDeck {
-            margin: auto!important;
+            margin: auto;
             display: block;
+            width: auto;
         }
         
         .imgCard h2 {
@@ -315,7 +316,7 @@
         
         #contactMe input,
         textarea {
-            font-size: 1.5vh!important;
+            font-size: 1.5vh;
             box-sizing: border-box;
             display: block;
             margin: 0.125% auto!important;
@@ -407,4 +408,73 @@
         #wrapper td {
             vertical-align: middle;
             text-align: center;
+        }
+
+        @media all and (max-device-height: 960px) and (max-device-width: 540px) {
+            #text {
+                padding:37.5vh 0 0 0;
+                margin: 0;
+            }
+            .col-sm-2 {
+                text-align: center;
+            }
+            .imgCard {
+                display: block;
+                width: 100%;
+                left: 50%;
+                padding: 0 10%!important;
+                margin: 0;
+                max-width: 100%;
+            }
+            .imgCard img {
+                width: 100%!important;
+                height: 100%!important;
+            }
+            .imgCard h2 {
+                font-size: 4.5vh;
+            }
+            .imgCard p {
+                font-size: 2.75vh;
+            }
+            #jumbo img {
+                margin: 1.5% auto;
+            }
+            #jumbo h1 {
+                text-align: center;
+                margin: 0 1.5%;
+            }
+            #jumbo h3 {
+                text-align: center;
+                margin: 0 1.5%;
+            }
+            #jumbo p {
+                text-align: center;
+                margin: 10% 1.5%;
+                font-size: 2.5vh;
+            }
+            #contactMe input, textarea {
+                font-size: 2vh!important;
+                width: 98%;
+            }
+            #contactMe button {
+                margin: 2.5% auto!important;
+                max-width: 50%;
+                font-size: 2vh;
+            }
+            #contactHeader {
+                font-size: 4.5vh;
+                padding: 5% 0;
+            }
+            #contactMe {
+                margin: 25% 0;
+            }
+            #contactH3 {
+                font-size: 3.5vh;
+            }
+            #socialButtons {
+                height: 3.5%;
+            }
+            .footer-copyright {
+                font-size: 2.75vh;
+            }
         }
