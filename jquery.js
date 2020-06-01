@@ -24,5 +24,12 @@ $(document).ready(function() {
                 $(this).addClass('slide-in-left');
             }
         });
+
+        if ($(window).scrollTop() > 969) {
+            $('#navBar').addClass('navbar-fixed');
+        }
+        if ($(window).scrollTop() < 970) {
+            $('#navBar').removeClass('navbar-fixed');
+        }
     });
 });
