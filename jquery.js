@@ -25,6 +25,19 @@ $(document).ready(function() {
             }
         });
 
+        $('.slideinright').each(function(i) {
+
+            var hT = $(this).offset().top,
+                hH = $(this).outerHeight(),
+                wH = $(window).height(),
+                wS = $(window).scrollTop();
+
+            if (wS > (hT + hH - wH) && (hT > wS) && (wS + wH > hT + hH)) {
+                $(this).removeClass('slideinright');
+                $(this).addClass('slide-left');
+            }
+        });
+
         if ($(window).scrollTop() > 969) {
             $('#navBar').addClass('navbar-fixed');
         }

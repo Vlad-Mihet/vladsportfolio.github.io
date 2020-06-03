@@ -8,12 +8,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-var button = document.getElementById('goDown');
-button.addEventListener('click', animate);
-images = document.getElementsByClassName('imgToAnimate');
-
-function animate() {
-    for (i = 0; i < images.length; i++) {
-        images[i].classList.add('scale-in-center');
-    }
+function sendEmail() {
+    var email = document.getElementById("senderEmail").value;
+    var subject = document.getElementById('senderName').value;
+    var body = document.getElementById('mailBody').value;
+    window.location = "mailto:" + email + "?subject=" + subject + "&body=" + body;
 }

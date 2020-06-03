@@ -77,13 +77,13 @@
         </div>
     </section>
     <section id="footerSection" class="fwh-slide">
-        <h1 id="contactHeader" class="display-5 text-center"> CONTACT </h1>
-        <h3 id="contactH3" class="text-center"> Have a question, or want to work together? </h3>
+        <h1 id="contactHeader" class="display-5 text-center slidein"> CONTACT </h1>
+        <h3 id="contactH3" class="text-center slideinright"> Have a question, or want to work together? </h3>
         <div id="contactMe">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Enter Email">
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit"> Submit </button>
+            <input id="senderName" type="text" placeholder="Your Name">
+            <input id="senderEmail" type="email" placeholder="Enter Email">
+            <textarea id="mailBody" placeholder="Your Message"></textarea>
+            <button type="submit" onclick="sendEmail()"> Submit </button>
         </div>
         <!-- Footer -->
         <footer class="page-footer font-small special-color-dark  bg-secondary pt-4">
