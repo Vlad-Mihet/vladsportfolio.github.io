@@ -109,8 +109,9 @@
             justify-content: center;
             display: inline-block;
             text-align: center;
-            width: 24.75%;
-            max-width: 23.75%;
+            max-width: 24.827%;
+            min-width: 24%;
+            padding: 0%;
         }
         
         #imgDeck {
@@ -184,11 +185,6 @@
             border-radius: 50%;
             max-height: 25vh;
             max-width: 25vh;
-        }
-        
-        #contactHeader {
-            margin-top: 5%;
-            padding-top: 2.5%;
         }
 
         /* Animation classes */
@@ -292,8 +288,8 @@
 
         @-webkit-keyframes slide-top {
             0% {
-              -webkit-transform: translateY(1000px);
-                      transform: translateY(1000px);
+              -webkit-transform: translateY(173px);
+                      transform: translateY(173px);
             }
             100% {
               -webkit-transform: translateY(0);
@@ -302,8 +298,8 @@
           }
           @keyframes slide-top {
             0% {
-              -webkit-transform: translateY(1000px);
-                      transform: translateY(1000px);
+              -webkit-transform: translateY(173px);
+                      transform: translateY(173px);
             }
             100% {
               -webkit-transform: translateY(0);
@@ -414,7 +410,7 @@
         
         #contactMe {
             margin-bottom: 15%;
-            margin-top: 5%;
+            margin-top: 3%;
         }
         
         #footerSection {
@@ -425,6 +421,8 @@
             font-size: 3.5vh;
             color: white;
             font-weight: 700;
+            margin-top: 5%;
+            padding-top: 3.5%;
         }
         
         #contactH3 {
@@ -466,6 +464,17 @@
             vertical-align: middle;
             text-align: center;
         }
+
+        #formHeader {
+            text-align: center;
+            color: white;
+            padding-bottom: .75%;
+        }
+
+        #copyrightFooter {
+            padding: 1.5rem!important;
+            font-size: 1.25rem;
+        }
         
         @media all and (max-device-height: 960px) and (max-device-width: 540px) {
             #text {
@@ -479,13 +488,13 @@
                 display: block;
                 width: 100%;
                 left: 50%;
-                padding: 0 10%!important;
+                padding: 0;
                 margin: 0;
                 max-width: 100%;
             }
             .imgCard img {
-                width: 100%!important;
-                height: 100%!important;
+                width: 120%!important;
+                height: 120%!important;
             }
             .imgCard h2 {
                 font-size: 4.5vh;
@@ -611,18 +620,18 @@
     
             @-webkit-keyframes slide-top {
                 0% {
-                  -webkit-transform: translateY(1000px);
-                          transform: translateY(1000px);
+                  -webkit-transform: translateY(173px);
+                          transform: translateY(173px);
                 }
                 100% {
                   -webkit-transform: translateY(0);
                           transform: translateY(0);
                 }
-              }
-              @keyframes slide-top {
+            }
+            @keyframes slide-top {
                 0% {
-                  -webkit-transform: translateY(1000px);
-                          transform: translateY(1000px);
+                  -webkit-transform: translateY(173px);
+                          transform: translateY(173px);
                 }
                 100% {
                   -webkit-transform: translateY(0);
