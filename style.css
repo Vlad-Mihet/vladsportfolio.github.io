@@ -475,6 +475,10 @@
             padding: 1.5rem!important;
             font-size: 1.25rem;
         }
+
+        #footer {
+            padding-top: 1rem!important;
+        }
         
         @media all and (max-device-height: 960px) and (max-device-width: 540px) {
             #text {
